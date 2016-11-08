@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/custom_bar"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleBar"
+        android:id="@+id/titleBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+</LinearLayout>
